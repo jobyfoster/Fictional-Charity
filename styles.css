@@ -6,7 +6,6 @@
     --secondary-text: #111111;
 }
 
-
 *,
 *::before,
 *::after {
@@ -22,19 +21,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-body > * {
-    margin: 0;
-}
-
 .dalle-img {
     border: 1px solid #ffd;
     background-color: #e6e6e6;
     border-radius: 4px;
 
     padding: 3px;
-    width: 25em;
+    width: 27em;
 
-    margin: 3em 3em;
+    margin: 5em 3em;
 
     display: inline;
     float: right;
@@ -65,7 +60,7 @@ body > * {
     padding: 2em 3em;
 
     border: 0.2em var(--primary-text) solid;
-    margin: 1.5em 8em;
+    margin: 2em 8em;
 }
 
 .content {
@@ -87,7 +82,18 @@ body > * {
 }
 
 .content-text {
-    width: 60%;
+    width: 70%;
     font-size: 1.8em;
     color: var(--secondary-text)
+}
+
+#join-us {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 8em;
+}
+
+#join-us p{
+    width: 90%;
 }
