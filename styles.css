@@ -21,6 +21,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body > * {
+  margin: 0;
+}
+
 .dalle-img {
   border: 1px solid #ffd;
   background-color: #e6e6e6;
@@ -60,7 +64,7 @@ body {
   padding: 2em 3em;
 
   border: 0.2em var(--primary-text) solid;
-  margin: 2em 15em;
+  margin: 2em 8em;
 }
 
 .content {
@@ -82,7 +86,7 @@ body {
 }
 
 .content-text {
-  width: 90%;
+  width: 70%;
   font-size: 1.8em;
   color: var(--secondary-text);
 }
@@ -90,7 +94,10 @@ body {
 #join-us {
   margin: auto;
   text-align: center;
-  padding: 2em 3em;
-  width: 50%;
-  margin-bottom: 5em;
+  width: 80%;
+  margin-bottom: 8em;
+}
+
+#join-us p {
+  width: 90%;
 }
