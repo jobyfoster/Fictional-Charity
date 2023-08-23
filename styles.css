@@ -25,6 +25,10 @@ body > * {
   margin: 0;
 }
 
+body > * {
+  margin: 0;
+}
+
 .dalle-img {
   border: 1px solid #ffd;
   background-color: #e6e6e6;
@@ -33,7 +37,7 @@ body > * {
   padding: 3px;
   width: 27em;
 
-  margin: 5em 3em;
+  margin: 3em 3em;
 
   display: inline;
   float: right;
@@ -64,11 +68,14 @@ body > * {
   padding: 2em 3em;
 
   border: 0.2em var(--primary-text) solid;
-  margin: 2em 8em;
+  margin: 2em auto;
+  overflow: auto;
+
+  width: 80%;
 }
 
 .content {
-  overflow: auto;
+  width: 65%;
 }
 
 #main-heading {
